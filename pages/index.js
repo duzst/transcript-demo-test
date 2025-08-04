@@ -4,738 +4,909 @@ import WaveSurfer from 'wavesurfer.js';
 
 const transcriptData = [
   {
+    "type": "label",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "word",
     "start": 0.03,
     "end": 0.5,
     "word": "[SPEAKER_00]:",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 0.5,
     "end": 0.96,
     "word": "hi",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 0.96,
     "end": 1.43,
     "word": "hi",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 1.43,
     "end": 1.9,
     "word": "can",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 1.9,
     "end": 2.36,
     "word": "i",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 2.36,
     "end": 2.83,
     "word": "get",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 2.83,
     "end": 3.3,
     "word": "you",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 3.3,
     "end": 3.76,
     "word": "something",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 3.76,
     "end": 4.23,
     "word": "to",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 4.23,
     "end": 4.7,
     "word": "drink",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 4.7,
     "end": 5.16,
     "word": "yes",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 5.16,
     "end": 5.63,
     "word": "could",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 5.63,
     "end": 6.1,
     "word": "i",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 6.1,
     "end": 6.56,
     "word": "please",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 6.56,
     "end": 7.03,
     "word": "get",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 7.03,
     "end": 7.5,
     "word": "some",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 7.5,
     "end": 7.97,
     "word": "water",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 7.97,
     "end": 8.43,
     "word": "still",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 8.43,
     "end": 8.9,
     "word": "or",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 8.9,
     "end": 9.37,
     "word": "sparkling",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 9.37,
     "end": 9.83,
     "word": "um",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 9.83,
     "end": 10.3,
     "word": "sorry",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 10.3,
     "end": 10.77,
     "word": "what's",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 10.77,
     "end": 11.23,
     "word": "the",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 11.23,
     "end": 11.7,
     "word": "difference",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 11.7,
     "end": 12.17,
     "word": "still",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 12.17,
     "end": 12.63,
     "word": "water",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 12.63,
     "end": 13.1,
     "word": "is",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 13.1,
     "end": 13.57,
     "word": "regular",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 13.57,
     "end": 14.03,
     "word": "water",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 14.03,
     "end": 14.5,
     "word": "sparkling",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 14.5,
     "end": 14.97,
     "word": "water",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 14.97,
     "end": 15.43,
     "word": "is",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 15.43,
     "end": 15.9,
     "word": "water",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 15.9,
     "end": 16.37,
     "word": "with",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 16.37,
     "end": 16.83,
     "word": "little",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 16.83,
     "end": 17.3,
     "word": "bubbles",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 17.3,
     "end": 17.77,
     "word": "oh",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 17.77,
     "end": 18.23,
     "word": "okay",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 18.23,
     "end": 18.7,
     "word": "then",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 18.7,
     "end": 19.17,
     "word": "um",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 19.17,
     "end": 19.63,
     "word": "still",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 19.63,
     "end": 20.1,
     "word": "water",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 20.1,
     "end": 20.57,
     "word": "please",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 20.57,
     "end": 21.03,
     "word": "all",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 21.03,
     "end": 21.5,
     "word": "right",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 21.5,
     "end": 21.97,
     "word": "still",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 21.97,
     "end": 22.43,
     "word": "water",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 22.43,
     "end": 22.9,
     "word": "thank",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 22.9,
     "end": 23.37,
     "word": "you",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 23.37,
     "end": 23.83,
     "word": "so",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 23.83,
     "end": 24.3,
     "word": "much",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "label",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 24.64,
     "end": 24.91,
     "word": "[SPEAKER_00]:",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 24.91,
     "end": 25.18,
     "word": "Right,",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 25.18,
     "end": 25.45,
     "word": "here's",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 25.45,
     "end": 25.72,
     "word": "your",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 25.72,
     "end": 25.99,
     "word": "still",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 25.99,
     "end": 26.26,
     "word": "water.",
     "speaker": "Customer"
   },
   {
+    "type": "label",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "word",
     "start": 26.3,
     "end": 26.73,
     "word": "[SPEAKER_00]:",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 26.73,
     "end": 27.17,
     "word": "Oh,",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 27.17,
     "end": 27.61,
     "word": "oh,",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 27.61,
     "end": 28.04,
     "word": "thank",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 28.04,
     "end": 28.48,
     "word": "you.",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "label",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 29.58,
     "end": 29.91,
     "word": "[SPEAKER_00]:",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 29.91,
     "end": 30.24,
     "word": "Sorry,",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 30.24,
     "end": 30.57,
     "word": "I",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 30.57,
     "end": 30.9,
     "word": "mean",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 30.9,
     "end": 31.23,
     "word": "the",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 31.23,
     "end": 31.56,
     "word": "water",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 31.56,
     "end": 31.89,
     "word": "that",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 31.89,
     "end": 32.22,
     "word": "you",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 32.22,
     "end": 32.55,
     "word": "have",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 32.55,
     "end": 32.88,
     "word": "like",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 32.88,
     "end": 33.21,
     "word": "in",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 33.21,
     "end": 33.54,
     "word": "the",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 33.54,
     "end": 33.87,
     "word": "kitchen,",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 33.87,
     "end": 34.2,
     "word": "you",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 34.2,
     "end": 34.53,
     "word": "know,",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 34.53,
     "end": 34.86,
     "word": "that",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 34.86,
     "end": 35.19,
     "word": "you",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 35.19,
     "end": 35.52,
     "word": "can",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 35.52,
     "end": 35.85,
     "word": "put",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 35.85,
     "end": 36.18,
     "word": "some",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 36.18,
     "end": 36.51,
     "word": "water.",
     "speaker": "Customer"
   },
   {
+    "type": "label",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "word",
     "start": 37.77,
     "end": 37.96,
     "word": "[SPEAKER_00]:",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 37.96,
     "end": 38.14,
     "word": "Oh,",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 38.14,
     "end": 38.32,
     "word": "you",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 38.32,
     "end": 38.51,
     "word": "would",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 38.51,
     "end": 38.69,
     "word": "like",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 38.69,
     "end": 38.87,
     "word": "tap",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 38.87,
     "end": 39.05,
     "word": "water?",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "label",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 40.3,
     "end": 40.55,
     "word": "[SPEAKER_00]:",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 40.55,
     "end": 40.81,
     "word": "Yes,",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 40.81,
     "end": 41.06,
     "word": "tap",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 41.06,
     "end": 41.32,
     "word": "water.",
     "speaker": "Customer"
   },
   {
+    "type": "label",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "word",
     "start": 41.5,
     "end": 41.71,
     "word": "[SPEAKER_00]:",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 41.71,
     "end": 41.93,
     "word": "Sorry,",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 41.93,
     "end": 42.15,
     "word": "I'll",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 42.15,
     "end": 42.36,
     "word": "bring",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 42.36,
     "end": 42.58,
     "word": "it",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 42.58,
     "end": 42.79,
     "word": "in",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 42.79,
     "end": 43.01,
     "word": "a",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 43.01,
     "end": 43.22,
     "word": "second,",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 43.22,
     "end": 43.44,
     "word": "yeah?",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "label",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 43.46,
     "end": 43.62,
     "word": "[SPEAKER_00]:",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 43.62,
     "end": 43.78,
     "word": "Sorry.",
     "speaker": "Customer"
   },
   {
+    "type": "label",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "word",
     "start": 44.26,
     "end": 44.41,
     "word": "[SPEAKER_00]:",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 44.41,
     "end": 44.55,
     "word": "Thank",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 44.55,
     "end": 44.69,
     "word": "you",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 44.69,
     "end": 44.84,
     "word": "so",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 44.84,
     "end": 44.98,
     "word": "much.",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "label",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 45.24,
     "end": 45.46,
     "word": "[SPEAKER_00]:",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 45.46,
     "end": 45.68,
     "word": "And",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 45.68,
     "end": 45.9,
     "word": "here's",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 45.9,
     "end": 46.12,
     "word": "your",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 46.12,
     "end": 46.34,
     "word": "tap",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 46.34,
     "end": 46.56,
     "word": "water.",
     "speaker": "Customer"
   },
   {
+    "type": "label",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "word",
     "start": 46.59,
     "end": 47.06,
     "word": "[SPEAKER_00]:",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 47.06,
     "end": 47.53,
     "word": "Oh,",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 47.53,
     "end": 48.0,
     "word": "thank",
-    "speaker": "Customer"
+    "speaker": "AI Chat Agent"
   },
   {
+    "type": "word",
     "start": 48.0,
     "end": 48.47,
     "word": "you.",
+    "speaker": "AI Chat Agent"
+  },
+  {
+    "type": "label",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 48.51,
     "end": 49.5,
     "word": "[SPEAKER_00]:",
     "speaker": "Customer"
   },
   {
+    "type": "word",
     "start": 49.5,
     "end": 50.49,
     "word": "Enjoy.",
@@ -805,6 +976,21 @@ export default function Home() {
 
       <div className="w-1/2 overflow-y-auto bg-gray-50 p-6">
         {transcriptData.map((item, index) => {
+          if (item.type === "label") {
+            return (
+              <div key={index} className="mt-4 mb-1">
+                <span
+                  className={`text-xs font-bold px-2 py-1 rounded ${
+                    item.speaker === 'AI Chat Agent'
+                      ? 'bg-blue-100 text-blue-800'
+                      : 'bg-green-100 text-green-800'
+                  }`}
+                >
+                  {item.speaker}
+                </span>
+              </div>
+            );
+          }
           const isActive = currentTime >= item.start && currentTime <= item.end;
           return (
             <span
